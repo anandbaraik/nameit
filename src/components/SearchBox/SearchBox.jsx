@@ -5,10 +5,10 @@ const SearchBox = ({onInputChange}) => {
       <div className="search-container">
         <input
         className='search'
-        maxLength="10"
         type='search'
         placeholder="Type keywords here"
         onChange={(event) => onInputChange(event.target.value)}
+        maxLength="10"
         />
     </div>
   );
